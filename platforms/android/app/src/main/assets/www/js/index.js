@@ -4,7 +4,7 @@ function onDeviceReady() {
     if (navigator.connection.type == Connection.NONE) {
       navigator.notification.alert('An internet connection is required to continue');
     } else {
-      window.location="http://fresh365.co/";
+      window.location="http://116.203.180.56/redirect.php?url=http://booksfair.in";
     }
   }
   document.addEventListener("deviceready", onDeviceReady, false);

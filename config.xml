@@ -1,14 +1,15 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="co.fresh365.app" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>Fresh365</name>
+<widget id="co.booksfair.app" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Booksfair</name>
     <description>
         A ecommerce site
     </description>
-    <author email="sayabahmed2008@gmail.com" href="http://cordova.io">
-        Digicube Solutions
+    <author email="surajitsadhukhan1@gmail.com" href="http://cordova.io">
+        Surajit Developer
     </author>
     <cordova>
-        <access origin="http://fresh365.co/*" />
+        <access origin="http://116.203.180.56/*" />
+        <access origin="http://booksfair.in/*" />
     </cordova>
     <content src="index.html" />
     <plugin name="cordova-plugin-whitelist" spec="1" />
@@ -19,10 +20,11 @@
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
-    <allow-navigation href="http://fresh365.co/*" />
+    <allow-navigation href="http://booksfair.in/*" />
     <allow-navigation href="https://www.paypal.com/*" />
     <allow-navigation href="https://*.paypal.com/*" />
     <allow-navigation href="https://paypal.com/*" />
+    <allow-navigation href="http://116.203.180.56/*" />
     <platform name="android">
         <allow-intent href="market:*" />
         <icon density="ldpi" src="res/icon/android/ldpi.png" />

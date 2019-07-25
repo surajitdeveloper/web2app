@@ -1,0 +1,4 @@
+#Thu Jul 25 14:18:19 IST 2019
+base.0=/run/media/surajit/962E95F42E95CE1D/projects/webapp/platforms/android/app/build/intermediates/transforms/dexMerger/debug/0
+path.0=classes.dex
+renamed.0=classes.dex

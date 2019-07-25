@@ -1,4 +1,0 @@
-#Sun Dec 09 23:31:29 IST 2018
-base.0=E\:\\projects\\school\\platforms\\android\\app\\build\\intermediates\\transforms\\dex\\release\\0
-path.0=classes.dex
-renamed.0=classes.dex
