@@ -8,15 +8,15 @@
   },
   "installed_plugins": {
     "cordova-plugin-dialogs": {
-      "PACKAGE_NAME": "com.school.app"
-    },
-    "cordova-plugin-network-information": {
-      "PACKAGE_NAME": "com.school.app"
-    },
-    "cordova-plugin-whitelist": {
-      "PACKAGE_NAME": "com.school.app"
+      "PACKAGE_NAME": "co.ba2z.app"
     },
     "cordova-plugin-enable-cleartext-traffic": {
+      "PACKAGE_NAME": "co.ba2z.app"
+    },
+    "cordova-plugin-network-information": {
+      "PACKAGE_NAME": "co.ba2z.app"
+    },
+    "cordova-plugin-whitelist": {
       "PACKAGE_NAME": "co.ba2z.app"
     }
   },
