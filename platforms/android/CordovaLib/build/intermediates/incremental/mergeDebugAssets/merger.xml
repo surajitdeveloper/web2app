@@ -1,2 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="/run/media/surajit/962E95F42E95CE1D/projects/webapp/platforms/android/CordovaLib/assets"/><source path="/run/media/surajit/962E95F42E95CE1D/projects/webapp/platforms/android/CordovaLib/build/generated/assets/shaders/debug"/></dataSet><dataSet config="debug"><source path="/run/media/surajit/962E95F42E95CE1D/projects/webapp/platforms/android/CordovaLib/src/debug/assets"/></dataSet></merger>

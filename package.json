@@ -1,6 +1,6 @@
 {
-    "name": "com.school.app",
-    "displayName": "school",
+    "name": "co.ba2z.app",
+    "displayName": "Ba2z",
     "version": "1.0.0",
     "description": "A sample Apache Cordova application that responds to the deviceready event.",
     "main": "index.js",
@@ -21,10 +21,14 @@
             "cordova-plugin-dialogs": {},
             "cordova-plugin-network-information": {},
             "cordova-plugin-whitelist": {},
-            "cordova-plugin-cleartext": {}
+            "cordova-plugin-cleartext": {},
+            "cordova-plugin-enable-cleartext-traffic": {}
         },
         "platforms": [
             "android"
         ]
+    },
+    "devDependencies": {
+        "cordova-plugin-enable-cleartext-traffic": "^2.1.0"
     }
 }
