@@ -17,7 +17,7 @@
        under the License.
  */
 
-package co.ba2z.app;
+package com.xpertzinfo.app;
 
 import android.os.Bundle;
 import org.apache.cordova.*;

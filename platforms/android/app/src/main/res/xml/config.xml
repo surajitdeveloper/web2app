@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="co.ba2z.app" version="1.1.3" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="com.xpertzinfo.app" version="1.1.5" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <feature name="Notification">
         <param name="android-package" value="org.apache.cordova.dialogs.Notification" />
     </feature>
@@ -10,7 +10,7 @@
         <param name="android-package" value="org.apache.cordova.whitelist.WhitelistPlugin" />
         <param name="onload" value="true" />
     </feature>
-    <name>Ba2z </name>
+    <name>Xpertzinfo</name>
     <description>
         A ecommerce site
     </description>
@@ -28,11 +28,14 @@
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
-    <allow-navigation href="https://ba2z.in/" />
-    <allow-navigation href="https://ba2z.in/*" />
+    <allow-navigation href="http://xpertzinfo.com" />
+    <allow-navigation href="http://xpertzinfo.com*" />
     <allow-navigation href="https://www.paypal.com/*" />
     <allow-navigation href="https://*.paypal.com/*" />
     <allow-navigation href="https://paypal.com/*" />
+    <edit-config file="app/src/main/AndroidManifest.xml" mode="merge" target="/manifest/application">
+        <application android:usesCleartextTraffic="true" />
+    </edit-config>
     <allow-intent href="market:*" />
     <icon density="ldpi" src="res/icon/android/ldpi.png" />
     <icon density="mdpi" src="res/icon/android/mdpi.png" />
