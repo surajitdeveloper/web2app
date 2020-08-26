@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="com.xpertzinfo.app" version="1.1.5" xmlns:android="http://schemas.android.com/apk/res/android" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>Xpertzinfo</name>
+    <name>Kolkata PG</name>
     <description>
         A ecommerce site
     </description>
@@ -8,7 +8,7 @@
        Devs
     </author>
     <cordova>
-        <access origin="http://rmarket.in/*" />
+        <access origin="https://kolkatapg.in/*" />
     </cordova>
     <content src="index.html" />
     <plugin name="cordova-plugin-whitelist" spec="1" />
@@ -21,8 +21,9 @@
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
-    <allow-navigation href="http://xpertzinfo.com" />
-    <allow-navigation href="http://xpertzinfo.com*" />
+    <allow-navigation href="https://kolkatapg.in" />
+    <allow-navigation href="https://kolkatapg.in/" />
+    <allow-navigation href="https://kolkatapg.in/*" />
     <allow-navigation href="https://www.paypal.com/*" />
     <allow-navigation href="https://*.paypal.com/*" />
     <allow-navigation href="https://paypal.com/*" />

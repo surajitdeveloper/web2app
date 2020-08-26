@@ -10,7 +10,7 @@
         <param name="android-package" value="org.apache.cordova.whitelist.WhitelistPlugin" />
         <param name="onload" value="true" />
     </feature>
-    <name>Xpertzinfo</name>
+    <name>Kolkata PG</name>
     <description>
         A ecommerce site
     </description>
@@ -18,7 +18,7 @@
        Devs
     </author>
     <cordova>
-        <access origin="http://rmarket.in/*" />
+        <access origin="https://kolkatapg.in/*" />
     </cordova>
     <content src="index.html" />
     <access origin="*" />
@@ -28,8 +28,9 @@
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
-    <allow-navigation href="http://xpertzinfo.com" />
-    <allow-navigation href="http://xpertzinfo.com*" />
+    <allow-navigation href="https://kolkatapg.in" />
+    <allow-navigation href="https://kolkatapg.in/" />
+    <allow-navigation href="https://kolkatapg.in/*" />
     <allow-navigation href="https://www.paypal.com/*" />
     <allow-navigation href="https://*.paypal.com/*" />
     <allow-navigation href="https://paypal.com/*" />
