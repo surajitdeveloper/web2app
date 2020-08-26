@@ -10,7 +10,7 @@
         <param name="android-package" value="org.apache.cordova.whitelist.WhitelistPlugin" />
         <param name="onload" value="true" />
     </feature>
-    <name>Kolkata PG</name>
+    <name>Aymo</name>
     <description>
         A ecommerce site
     </description>
@@ -28,9 +28,9 @@
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
-    <allow-navigation href="https://kolkatapg.in" />
-    <allow-navigation href="https://kolkatapg.in/" />
-    <allow-navigation href="https://kolkatapg.in/*" />
+    <allow-navigation href="http://167.71.236.252/demo/demo1" />
+    <allow-navigation href="http://167.71.236.252/demo/demo1/" />
+    <allow-navigation href="http://167.71.236.252/demo/demo1/*" />
     <allow-navigation href="https://www.paypal.com/*" />
     <allow-navigation href="https://*.paypal.com/*" />
     <allow-navigation href="https://paypal.com/*" />

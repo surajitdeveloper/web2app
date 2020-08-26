@@ -4,7 +4,7 @@ function onDeviceReady() {
     if (navigator.connection.type == Connection.NONE) {
       navigator.notification.alert('An internet connection is required to continue');
     } else {
-      window.location.href = "https://kolkatapg.in/";
+      window.location.href = "http://167.71.236.252/demo/demo1/";
     }
   }
   document.addEventListener("deviceready", onDeviceReady, false);
