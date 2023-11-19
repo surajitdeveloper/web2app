@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.xpertzinfo.app" version="1.1.5" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>Aymo</name>
+<widget id="com.connectbi.app" version="1.1.5" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Connect Bi</name>
     <description>
-        A ecommerce site
+        connecting machines
     </description>
-    <author email="isurajitdeveloper@gmail.com" href="http://cordova.io">
-       Devs
+    <author email="Upasana_Chauhan@instron.com" href="http://cordova.io">
+       Upasana
     </author>
     <cordova>
-        <access origin="https://kolkatapg.in/*" />
+        <access origin="https://connect-bi.com/*" />
     </cordova>
     <content src="index.html" />
     <plugin name="cordova-plugin-dialogs" spec="^2.0.1" />
@@ -20,12 +20,9 @@
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
-    <allow-navigation href="http://167.71.236.252/demo/demo1" />
-    <allow-navigation href="http://167.71.236.252/demo/demo1/" />
-    <allow-navigation href="http://167.71.236.252/demo/demo1/*" />
-    <allow-navigation href="https://www.paypal.com/*" />
-    <allow-navigation href="https://*.paypal.com/*" />
-    <allow-navigation href="https://paypal.com/*" />
+    <allow-navigation href="https://connect-bi.com/" />
+    <allow-navigation href="https://connect-bi.com/*" />
+    <allow-navigation href="https://connect-bi.com/*/*" />
     <platform name="android">
         <edit-config file="app/src/main/AndroidManifest.xml" mode="merge" target="/manifest/application">
             <application android:usesCleartextTraffic="true" />

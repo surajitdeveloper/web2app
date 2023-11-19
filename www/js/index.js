@@ -27,7 +27,7 @@ function onDeviceReady() {
     if (navigator.connection.type == Connection.NONE) {
       navigator.notification.alert('An internet connection is required to continue');
     } else {
-      window.location.href = "https://google.co.in";
+      window.location.href = "https://connect-bi.com/";
     }
     console.log('Running cordova-' + cordova.platformId + '@' + cordova.version);
     document.getElementById('deviceready').classList.add('ready');
